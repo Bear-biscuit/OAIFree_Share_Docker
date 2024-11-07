@@ -23,7 +23,7 @@ services:
       MYSQL_ROOT_PASSWORD: password  # 设置 MySQL root 密码
       MYSQL_DATABASE: oaifree  # 创建数据库
     ports:
-      - "8888:3306"  # 映射 MySQL 的端口
+      - "3306:3306"  # 映射 MySQL 的端口
     volumes:
       - mysql_data:/var/lib/mysql  # 持久化数据
       - ./init_db.sql:/docker-entrypoint-initdb.d/init_db.sql
