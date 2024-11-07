@@ -40,5 +40,10 @@ flask_app  |  * Running on http://172.18.0.3:5000
 flask_app  | Press CTRL+C to quit
 ```
 
+8、使用ip:端口访问  
+默认管理员账号  
+```
+admin  123123
+```
 
 
